@@ -77,9 +77,7 @@ The playbook implements the following tasks:
   Use sysctl module for more memory Download 
   launch docker container
 
-The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -95,7 +93,7 @@ We have installed the following Beats on these machines:
 - Filebeat collects log events on files that was specified by the admin and forwards them to Elastaticsearch, Logstash and Kibana (ELK) for manageable indexing 
   Metricbeats collects metrics from the operating system and services running on the specified server
 
-### Using the Playbooke
+### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
@@ -118,4 +116,3 @@ SSH into the control node and follow the steps below:
 - Which URL do you navigate to in order to check that the ELK server is running?
   http : // VM’s IP:5601/app/kibana
 
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
